@@ -1,0 +1,61 @@
+name: dockercompose10042320349236055648
+services:
+  demoapp.webapi:
+    build:
+      context: C:\Users\sivak\source\repos\DemoApp
+      dockerfile: DemoApp.WebApi/Dockerfile
+    depends_on:
+      demoappsqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      SQLConnection: Server=demoappsqldata:1433;Database=DemoApp.SchoolDb;User Id=sa;Password=P@ssword1
+    image: demoappwebapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "5021"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "5022"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\sivak\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\sivak\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  demoappsqldata:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: P@ssword1
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1443"
+      protocol: tcp
+    volumes:
+    - type: volume
+      source: demoapp-sqldata
+      target: /var/opt/mssql
+      volume: {}
+networks:
+  default:
+    name: dockercompose10042320349236055648_default
+volumes:
+  demoapp-sqldata:
+    name: dockercompose10042320349236055648_demoapp-sqldata

@@ -1,0 +1,5 @@
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Infrastructure.Persistence\obj\Debug\net6.0\DemoApp.Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Infrastructure.Persistence\obj\Debug\net6.0\DemoApp.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Infrastructure.Persistence\obj\Debug\net6.0\DemoApp.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Infrastructure.Persistence\obj\Debug\net6.0\DemoApp.Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Infrastructure.Persistence\obj\Debug\net6.0\DemoApp.Infrastructure.Persistence.csproj.CoreCompileInputs.cache

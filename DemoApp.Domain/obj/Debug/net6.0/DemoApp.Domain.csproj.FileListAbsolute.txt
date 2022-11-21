@@ -1,0 +1,12 @@
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\bin\Debug\net6.0\DemoApp.Domain.deps.json
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\bin\Debug\net6.0\DemoApp.Domain.dll
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\bin\Debug\net6.0\DemoApp.Domain.pdb
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\DemoApp.Domain.csproj.AssemblyReference.cache
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\DemoApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\DemoApp.Domain.AssemblyInfoInputs.cache
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\DemoApp.Domain.AssemblyInfo.cs
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\DemoApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\DemoApp.Domain.dll
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\refint\DemoApp.Domain.dll
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\DemoApp.Domain.pdb
+C:\Users\sivak\source\repos\DemoApp\DemoApp.Domain\obj\Debug\net6.0\ref\DemoApp.Domain.dll

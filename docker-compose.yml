@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  demoapp.webapi:
+    image: ${DOCKER_REGISTRY-}demoappwebapi
+    build:
+      context: .
+      dockerfile: DemoApp.WebApi/Dockerfile
+
+
+  demoappsqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+
+
+volumes:
+  demoapp-sqldata:
+    external: false

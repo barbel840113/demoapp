@@ -1,0 +1,2 @@
+C:\Users\sivak\source\repos\DemoApp\bin\Debug\DemoApp.WebApi.dll
+C:\Users\sivak\source\repos\DemoApp\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
